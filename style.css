@@ -1,0 +1,132 @@
+/* Element selectors - styles for HTML tags */
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+  background-color: lightgray;
+  color: black;
+  margin: 20px;
+  padding: 10px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+h2 {
+  color: black;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+p {
+  color: black;
+  padding: 5px;
+  margin: 10px;
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+}
+
+th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+img {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+/* Class selector - styles for the navigation menu */
+
+.menu {
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.menu a {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* Hover effect on links - required by assignment */
+
+.menu a:hover {
+  background-color: gray;
+}
+
+/* ID selectors - styles for specific sections */
+
+#abstract {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+#key-terms {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+#table-of-contents {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Layout - CSS Grid (required by assignment) */
+
+main {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 20px;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  background-color: gray;
+}
