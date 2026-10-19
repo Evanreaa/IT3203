@@ -1,5 +1,5 @@
-/* Element selectors - styles for HTML tags */
-
+/* ID Selectors */
+/* This code sets the base font to Arial, makes the text size 16px, give the page a lightgray background, sets the text color to black, and addes 20 pixel margins and 10 pixel padding around the body */
 body {
   font-family: Arial;
   font-size: 16px;
@@ -8,45 +8,45 @@ body {
   margin: 20px;
   padding: 10px;
 }
-
+/* This makes the main heading text black, centers it, adds a black border around it, and gives it 10 pixels of solid black border, and gives it 10 pixels of padding inside the border */
 h1 {
   color: black;
   text-align: center;
   border: 1px solid black;
   padding: 10px;
 }
-
+/* This makes the subheadings black, adds 5 pixels of padding, and gives them a top margin of 20 pixels down from the element above them to create space between sections */
 h2 {
   color: black;
   padding: 5px;
   margin-top: 20px;
 }
-
+/* This makes the paragraph text black, adds 5 pixels of padding, and gives them a margin of 10 pixels of margin around the paragraphs so it dosent touch the elements next to it  */
 p {
   color: black;
   padding: 5px;
   margin: 10px;
 }
-
+/* Makes the table take up 100% of the screen width, adds a 1 pixel black border, and adds 20px margin and 10px padding around the table */
 table {
   border: 1px solid black;
   width: 100%;
   margin: 20px;
   padding: 10px;
 }
-
+/* Makes the table header backgroudn black, the text white, adds 10 pixels of padding inside the header cells, and gives it a 1 pixel solid black border around them */
 th {
   background-color: black;
   color: white;
   padding: 10px;
   border: 1px solid black;
 }
-
+/* Adds a 1 pixel solid black border around the table cells and adds 10 pixels of padding to every table data cell */
 td {
   border: 1px solid black;
   padding: 10px;
 }
-
+/* Adds a 1 pixel solid black boarder aroudn images, 5 pixel of padding inside the boarder, and 10px of margin outside the boarder to keep images seperated from the text */
 img {
   border: 1px solid black;
   padding: 5px;
@@ -54,50 +54,50 @@ img {
 }
 
 /* Class selector - styles for the navigation menu */
-
+/* Creates a black background for the menu bar, and adds 10px of padding inside, and pushes the content below it down by 20px */
 .menu {
   background-color: black;
   padding: 10px;
   margin-bottom: 20px;
 }
-
+/* Removes the default padding from the unordered list inside the menu */
 .menu ul {
   padding: 0;
 }
-
+/* Changes the display of the list items to inline so they sit side by side horizontally, and adds 15px of space to the right of each item */
 .menu li {
   display: inline;
   margin-right: 15px;
 }
-
+/* Makes the menu link text white, sets the font size to 18px, and adds 10px of padding inside each link to make them easier to click */
 .menu a {
   color: white;
   font-size: 18px;
   padding: 10px;
 }
 
-/* Hover effect on links - required by assignment */
+/* Changes the background color of the links to gray when the user hovers over them */
 
 .menu a:hover {
   background-color: gray;
 }
 
 /* ID selectors - styles for specific sections */
-
+/* Gives the abstract section a white background, a 1px solid black boarder, 20px of padding inside the box, and 20px of margin outisde the box */
 #abstract {
   background-color: white;
   border: 1px solid black;
   padding: 20px;
   margin: 20px;
 }
-
+/* Gives the key terms section a white background, a 1px solid black boarder, 20px of padding inside the box, and 20px of margin outisde the box */
 #key-terms {
   background-color: white;
   border: 1px solid black;
   padding: 20px;
   margin: 20px;
 }
-
+/* Gives the table of contents section a white background, a 1px solid black boarder, 20px of padding inside the box, and 20px of margin outisde the box */
 #table-of-contents {
   background-color: white;
   border: 1px solid black;
@@ -106,7 +106,7 @@ img {
 }
 
 /* Layout - CSS Grid (required by assignment) */
-
+/*This code uses CSS Grid to stack the main content in a single column that takes up 100% of the width, and adds 20px of space between each grid item */ 
 main {
   display: grid;
   grid-template-columns: 100%;
@@ -114,7 +114,7 @@ main {
 }
 
 /* Footer */
-
+/* Creates a black background for the footer, makes the text white, adds 20px of padding inside the footer, and centers the text */
 footer {
   background-color: black;
   color: white;
@@ -122,11 +122,11 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
-
+/* Makes the links in the footer white, and removes the underline from them */
 footer a {
   color: white;
 }
-
+/* Changes the background color of the links in the footer to gray when the user hovers over them */
 footer a:hover {
   background-color: gray;
 }
